@@ -1,5 +1,5 @@
 const sistema = {
-  estado: "iniciado",
+  estado: "infectado",
   puerta: "bloqueada",
   alarma: "activada"
 };
