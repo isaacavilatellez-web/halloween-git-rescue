@@ -1,5 +1,5 @@
 const sistema = {
-  estado: "iniciado",
+  estado: "protegido",
   puerta: "bloqueada",
   alarma: "activada"
 };
