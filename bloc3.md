@@ -64,3 +64,23 @@ git log --graph --oneline --decorate --all
 
 ### Captura
 ![Arbre de branques i commits](captures/accio-3-14.png)
+
+## Acció 3.15 — Publicació a GitHub
+
+### Explicació tècnica
+He creat el repositori públic `halloween-git-rescue` a GitHub i
+hi he publicat `main` i les dues branques de treball perquè es pugui
+auditar l'historial complet.
+
+### Comandaments executats
+```bash
+gh repo create halloween-git-rescue --public --source=. --remote=origin --push
+git push -u origin feature-nightmare feature-sanctuary
+git branch -a
+```
+
+### Repositori
+https://github.com/isaacavilatellez-web/halloween-git-rescue
+
+### Captura
+![Publicació del repositori i les branques](captures/accio-3-15.png)
