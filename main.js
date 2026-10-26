@@ -1,6 +1,7 @@
 const sistema = {
   estado: "iniciado",
-  puerta: "bloqueada"
+  puerta: "bloqueada",
+  alarma: "activada"
 };
 
 console.log("Sala de servidores:", sistema.estado);
